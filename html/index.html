@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark py-3 ">
+        <div class="container">
+            <a class="logo navbar-brand text-light" href="#">
+              <div class="d-flex flex-row align-items-center">
+                <img class="w-100 mx-2" src="../imgs/logo (1).png" alt="logo">
+                <div class="d-flex flex-column">
+                  <h5>Weather</h5>
+                  <p>Tagline goes here</p>
+                </div>
+              </div>
+            </a>
+            <div class="collapse navbar-collapse start" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light mx-3" href="#">Live cameras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light mx-3" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="country position-relative">
+        <div class="container py-5">
+            <form action="" class="find-location position-relative my-5 w-100 text-center">
+                <input type="search" class="form-control p-3 text-light" id="search" placeholder="Find your location">
+                <button value="find" class="Btn-s bg-primary text-white" id="find">Find</button>
+            </form>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container">
+            <div class="row py-5 d-flex" id="display">
+              <div class="card col-lg-4 text-center">
+                <div>
+                  <div id="day1"> <h5 class="card-header" id="day1Name"></h5> <p id="day1Country"></p> 
+                    <div class="d-flex justify-content-center "><h1 id="day1temp"></h1> <img id="day1icon" /> 
+                  </div><p id="day1condition"></p> </div>
+                <div class="details"><span id="day1humidity"></span>
+                  <span id="day1wind"></span>
+               
+              </div>
+                </div></div>
+                      
+              <div class="card col-lg-4 text-center">
+                <div>
+                  <div id="day2"> <h5 class="card-header" id="day2Name"></h5>  <img id="day2icon" /> <h4 id="day2temp"></h4><p class="text-primary" id="day2condition"></p> 
+                  </div></div></div>
+                      
+              <div class="card col-lg-4 text-center">
+                <div>
+                  <div id="day3"> <h5 class="card-header" id="day3Name"></h5> <img id="day3icon" /><h4 id="day3temp"></h4>  <p class="text-primary" id="day3condition"></p> </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+         
+        
+    </section>
+
+     <footer>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-6 my-5">
+            <form action="" class="subscribe-form position-relative mb-5 w-100  ">
+              <input type="text" class="form-control" id="subscribe" placeholder="Enter your email to subscribe">
+              <input type="button"  value="Subscribe" class="Btn-sub bg-info text-white border rounded-3" id="submit">
+            </form>
+            <p class="text-white px-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+          <div class="col-md-6 my-5">
+            <ul class=" socail-icon d-flex justify-content-center align-items-center text-center">
+              <li><span><a href="#" class=""><i class="fa-brands fa-facebook-f"></i></a></span></li>
+              <li><span><a href="#"><i class="fa-brands fa-x-twitter"></i></a></span></li>
+              <li><span><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></span></li>
+              <li><span><a href="#"><i class="fa-brands fa-pinterest"></i></a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/index.js"></script>
+</body>
+</html>

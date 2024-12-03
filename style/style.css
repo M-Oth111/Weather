@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+}
+
+.country{
+    background-image:url('../imgs/banner.png') ;
+    background-repeat: no-repeat;
+ background-size: cover;
+}
+:root{
+   --mainBgColor:#1E202B ;
+}
+p{font-size: 12px;}
+.find{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+.form-control{background-color:var(--mainBgColor) ;
+border: 0;
+border-radius: 40px;}
+.form-control:focus{
+    background-color:var(--mainBgColor) ;
+    color: white;
+}
+::placeholder {
+    color: white !important;
+}
+.Btn-s{
+    position: absolute;
+
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    
+    border: 0;
+  
+    padding: 0 20px;
+    border-radius: 15px;
+    
+}
+.content{
+  
+    background-color: var(--mainBgColor);
+}
+.card{
+    background-color: #323544;
+    color: white;
+}
+.sCard{background-color: #262936;}
+.socail-icon li{
+    list-style: none;
+}
+
+.socail-icon li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #009AD8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#1E202B;
+    padding: 10px;
+}
+
+.socail-icon li a:hover{
+    background-color:#009AD8;
+    color: #fff;
+}
+
+ nav ul li a .active{
+border: 2px solide blue !important;
+ }
+ .Btn-sub{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 20px;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: #262936;
+
+   
+}
